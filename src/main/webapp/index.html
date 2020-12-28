@@ -1,0 +1,38 @@
+<h1> employee application </h1>
+
+<h2> Add Employee </h2>
+
+
+<form method="POST" action ="./api">
+
+ID <input name="id"/> </br>
+NAME <input name="name"/> </br>
+AGE <input name="age"/> </br>
+
+<button type = "submit">Submit</button>
+
+</form>
+
+
+<h2> View Employee </h2>
+
+<form method="GET" action ="./api">
+
+ID <input name="id"/> </br>
+
+
+<button type = "submit">Submit</button>
+
+</form>
+
+
+<h2>View All Employee </h2>
+<a href="./api">View all employee</a>
+
+
+<h2>Delete Employee</h2>
+<form method="GET" action ="./api">
+ID <input name="id"/> </br>
+<input type="hidden" name="action" value="delete">
+<button type = "submit">Submit</button>
+</form>
